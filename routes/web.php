@@ -141,3 +141,6 @@ Route::get('social-media-share', [SocialShareButtonsController::class,'ShareWidg
 Route::get('feed', [RSSFeedController::class, 'index']);
 
 Route::get('chart', [ChartJSController::class, 'index']);
+
+Route::get('chart', [ChartJSController1::class, 'index']);
+
